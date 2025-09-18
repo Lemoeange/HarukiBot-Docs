@@ -1,4 +1,5 @@
 # Haruki分布式部署文档
+
 本教程包括部署与配置Haruki分布式客户端与Bot端的大部分内容
 
 ## 准备工作
@@ -14,7 +15,9 @@
 *Haruki Dev群号：959939201 如遇任何问题请在自我排除后附上截图在群里询问!!!*
 
 + 客户端注册过程中要求你填写的QQ号为**你本人的QQ号**，而非**你使用Bot的账号**
+ 
 + **请不要把Bot账号拉进来！**
+  
 + **请勿将HarukiClient用于QQ官方机器人！这会导致Haruki Cloud的绑定数据异常！**
 
 :::
@@ -23,8 +26,11 @@
 你需要一台24h不关机的电脑，否则关机这段时间HarukiBot将无法工作，此处推荐购买[雨云](https://www.rainyun.com/MzUzODA4_)运行
 
 Windows 电脑需要运行大于等于 Windows 8 或 Windows server 2012 版本的系统（更低版本实测无法运行）  
+
 Linux 系统推荐使用 ``Ubuntu 22.04``, ``Debian 12`` 或以上的Linux发行版系统  
+
 macOS仅提供Apple Silicon (即arm64)的打包文件，x86的macOS不提供支持
+
 在较低版本 Ubuntu 和其他较低版本 Linux 中可能提示缺少 GLIBC 对应版本，安装非常麻烦，不推荐使用。
 
 
@@ -38,8 +44,11 @@ Linux       HarukiClient-Linux-amd64-v1.1.7-glibc.app
 ::: warning
 
 Windows版本并非单文件，因此需要进行**解压缩**,Linux无需解压.app文件
+
 请务必**不要使用**Windows自带的解压缩解压Windows客户端,否则解压的时候会报错从而解压失败
+
 推荐使用7zip解压：https://www.7-zip.org/
+
 如果官网下载失败可以在群文件9月4日找到win-x64安装包:7z2501-x64.exe
 
 :::
